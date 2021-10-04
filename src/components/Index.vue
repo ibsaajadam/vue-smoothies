@@ -85,5 +85,18 @@ export default {
   font-size: 1.4em;
 }
 
+@media (max-width: 900px){
+.index {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  }
+}
+
+@media (max-width: 500px){
+.index {
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  }
+}
 
 </style>
