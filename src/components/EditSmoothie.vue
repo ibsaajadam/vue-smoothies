@@ -1,6 +1,6 @@
 <template>
   <div v-if="smoothie" class="edit-smoothie container">
-    <h2>Edit {{ smoothie.title }} Smoothie</h2>
+    <h2>Edit {{ smoothie.title }}</h2>
     <form @submit.prevent="EditSmoothie">
       <div class="field title">
          <label for="title">Smoothie Title:</label>
